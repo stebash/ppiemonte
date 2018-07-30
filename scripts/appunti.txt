@@ -1,0 +1,10 @@
+ordinicollettivi
+ordini
+conti
+
+
+drush si openedu —site-name='My EDU Site' --db-url='mysql://open_edu:open_edu@127.0.0.1/open_edu'
+
+admin
+
+pur3m866LX
