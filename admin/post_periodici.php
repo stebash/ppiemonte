@@ -1,0 +1,42 @@
+<?php
+
+$titolo=addslashes(strip_tags($_POST['TITOLO']));
+				$sottoti1=addslashes(strip_tags($_POST['SOTTOTIT_1'])); 
+				$sottoti2=addslashes(strip_tags($_POST['SOTTOTIT_2']));
+				$sottoti3=addslashes(strip_tags($_POST['SOTTOTIT_3']));
+				$rif_prec=$_POST['RIF_PREC'];
+				$rif_succ=$_POST['RIF_SUCC'];
+				$altezza=$_POST['ALTEZZA']; 
+				$base=$_POST['BASE']; 
+				$pagine=$_POST['PAGINE']; 
+				$pagine_rom=$_POST['PAGINE_ROM']; 
+				$genere=$_POST['GENERE']; 
+				$periodic=$_POST['PERIODIC'];
+				$prezzo=$_POST['PREZZO']; 
+				$moneta=$_POST['MONETA'];
+				$tiratura=$_POST['TIRATURA']; 
+				$anno=$_POST['NELLANNO']; 
+				$estensione=$_POST['AREADIFF'];
+				$lingua=$_POST['LINGUA'];
+				$supplem=$_POST['SUPPLEM']; 
+				$url=$_POST['URL']; 
+				$indice=$_POST['INDICE']; 
+				$editore=addslashes(strip_tags($_POST['EDITORE'])); 
+				$luogo_ediz=addslashes(strip_tags($_POST['LUOGO_EDIZ']));
+				$tipografia=addslashes(strip_tags($_POST['TIPOGRAFIA'])); 
+				$luogo_stam=addslashes(strip_tags($_POST['LUOGO_STAM'])); 
+				$continua=$_POST['CONTINUA']; 
+				$anno_fond=$_POST['ANNO_FOND']; 
+				$anno_cess=$_POST['ANNO_CESS']; 
+				$inipri=$_POST['INIPRI']; 
+				$finepri=$_POST['FINEPRI']; 
+				$bibliopri=$_POST['BIBLIOPRI']; 
+				$note=addslashes(strip_tags($_POST['NOTE'])); 
+				$repertorio=$_POST['REPERTORIO']; 
+				$archivio=$_POST['ARCHIVIO']; 
+				$fondopriv=$_POST['FONDOPRIV']; 
+				$microfilm=$_POST['MICROFILM']; 
+				$provincia=$_POST['PROVINCIA'];
+				$noteagg=addslashes(strip_tags($_POST['noteagg']));
+				
+?>
